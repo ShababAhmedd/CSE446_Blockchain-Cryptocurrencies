@@ -18,3 +18,21 @@ let isSunny = true;
 let weatherMessage = isSunny ? "It's is a sunny day." : "It's NOT a sunny day.";
 console.log(weatherMessage);
 ```
+
+# conditional statements
+### switch case
+```js
+const price = 0;
+switch(price) {
+    case 1:
+        console.log("1");
+        break;
+
+    case 2:
+        console.log("2");
+        break;
+
+    default:
+        console.log("0");
+}
+```
