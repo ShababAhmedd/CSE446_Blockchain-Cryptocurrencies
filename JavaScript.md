@@ -51,6 +51,13 @@ add(5, 5);
 
 ### arrow function
 ```js
+const add = (num1, num2) => {
+    return num1 + num2;
+}
+
+console.log(add(5, 5))
 
 ```
 <br></br>
+
+# loops
