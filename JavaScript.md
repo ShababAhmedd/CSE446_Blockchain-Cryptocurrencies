@@ -18,6 +18,7 @@ let isSunny = true;
 let weatherMessage = isSunny ? "It's is a sunny day." : "It's NOT a sunny day.";
 console.log(weatherMessage);
 ```
+<br></br>
 
 # conditional statements
 ### switch case
@@ -36,6 +37,7 @@ switch(price) {
         console.log("0");
 }
 ```
+<br></br>
 
 # functions
 ### traditional function
@@ -51,3 +53,4 @@ add(5, 5);
 ```js
 
 ```
+<br></br>
