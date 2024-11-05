@@ -97,3 +97,14 @@ for (const i in arr) {
     console.log(i);
 }
 ```
+
+# objects
+```js
+const car = {
+    name: "Axio", 
+    company: "toyota",
+    colour: "white"
+}
+
+console.log(car.name);
+```
