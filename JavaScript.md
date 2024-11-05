@@ -83,5 +83,8 @@ for (const i in myObj) {
 
 ### for of (when iterating an array)
 ```js
-
+const arr = ["CSE446", "CSE490", "CSE447"];
+for (const i of arr) {
+    console.log(i);
+}
 ```
