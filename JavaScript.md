@@ -61,3 +61,8 @@ console.log(add(5, 5))
 <br></br>
 
 # loops
+```js
+for (let i = 0; i < 10; i++) {
+    console.log("hello")
+}
+```
