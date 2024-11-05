@@ -61,8 +61,19 @@ console.log(add(5, 5))
 <br></br>
 
 # loops
+### for
 ```js
 for (let i = 0; i < 10; i++) {
     console.log("hello")
 }
+```
+
+### for in (when iterating an object)
+```js
+
+```
+
+### for of (when iterating an array)
+```js
+
 ```
