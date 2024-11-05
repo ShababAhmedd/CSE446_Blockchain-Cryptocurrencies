@@ -70,7 +70,15 @@ for (let i = 0; i < 10; i++) {
 
 ### for in (when iterating an object)
 ```js
+const myObj = {
+    a : 1,
+    b : 2,
+    c : 3,
+}
 
+for (const i in myObj) {
+    console.log(i);
+}
 ```
 
 ### for of (when iterating an array)
