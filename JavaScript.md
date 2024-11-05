@@ -68,7 +68,9 @@ for (let i = 0; i < 10; i++) {
 }
 ```
 
-### for in (when iterating an object)
+### for in 
+(when iterating an object) <br> </br>
+key = in <br></br>
 ```js
 const myObj = {
     a : 1,
@@ -81,10 +83,17 @@ for (const i in myObj) {
 }
 ```
 
-### for of (when iterating an array)
+### for of 
+(when iterating an array) <br></br>
+val = off <br></br>
 ```js
 const arr = ["CSE446", "CSE490", "CSE447"];
+
 for (const i of arr) {
+    console.log(i);
+}
+
+for (const i in arr) {
     console.log(i);
 }
 ```
