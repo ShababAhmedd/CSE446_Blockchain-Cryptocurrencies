@@ -108,3 +108,17 @@ const car = {
 
 console.log(car.name);
 ```
+
+### object within object
+```js
+const car = {
+  // key: "value"
+  parts: {
+    doors: 4,
+    lights: 4,
+  },
+};
+
+console.log(car.parts);
+console.log(car.parts.doors);
+```
