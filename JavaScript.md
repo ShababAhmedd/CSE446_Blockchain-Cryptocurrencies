@@ -122,3 +122,17 @@ const car = {
 console.log(car.parts);
 console.log(car.parts.doors);
 ```
+
+### dynamic access
+```js
+const car = {
+  parts: {
+    doors: 4,
+    lights: 4,
+  },
+};
+
+const prop = "parts";
+
+console.log(car[prop]);
+```
